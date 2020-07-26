@@ -4,7 +4,10 @@ body{
   margin-top: 0;
   margin-right: 0;
   text-align: center;
-  font-family: 'Neuton', serif;
+  font-family: serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #40514E;
 }
 
 hr {
@@ -12,8 +15,8 @@ hr {
   border-style: dotted none none;
   width: 5%;
   border-color: grey;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 a{
@@ -57,25 +60,8 @@ h6{
   font-family: 'Montserrat Subrayada', sans-serif;
 }
 
-p{
-  font-size: 1.1em;
-}
-
-ol{
-  font-size: 1.1em;
-}
-
-ul{
-  font-size: 1.1em;
-}
-
-table{
-  font-size: 1.1em;
-}
-
 .top-container{
   background-color: #E0FFFF;
-  height: 1000px;
 }
 
 .cloud-container{
@@ -102,17 +88,15 @@ table{
 }
 
 .mountain{
-  position: absolute;
-  bottom: 0;
-  left: 30%;
-  width: 40%;
+  position: relative;
+  width: 51%;
 }
 
 /******************************Middle Container******************************/
 
 .middle-container{
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 100px;
+  padding-bottom: 40px;
   background-color: #F0FFFF;
 }
 
@@ -121,17 +105,45 @@ table{
   width: 55%;
 }
 
+.education{
+  width: 35%;
+  margin: 0 auto 0 auto;
+  text-align: left;
+}
+
+.education-stuff{
+  clear: left;
+}
+
 .education-list{
   text-align: left;
-  margin-left: 40%;
+}
+
+.work-experience{
+  width: 40%;
+  margin: 0 auto 0 auto;
+  text-align: left;
+}
+
+.work-header{
+  font-family: 'Neuton', serif;
+  font-weight: 800;
+  font-size: 1.3rem;
 }
 
 .work{
-  margin: auto;
+  text-align: left;
+  margin: 0 auto 0 auto;
+  clear: right;
+}
+
+.skill-row{
+  text-align: center;
 }
 
 .skills{
-  margin: auto;
+  text-align: left;
+  margin: 20px auto 0 auto;
 }
 
 .hobbies{
@@ -140,13 +152,86 @@ table{
 }
 
 .img{
-  width: 250px;  
+  width: 250px;
 }
 
 /******************************Bottom Container******************************/
 
 .bottom-container{
-  background-color: #E0FFFF;
+  background-color: #66BFBF;
   padding-top: 20px;
   padding-bottom: 10px;
+}
+
+.contact-me: hover{
+  background-color: gold;
+}
+
+.discord-link{
+  display: inline;
+  padding-left: 10px;
+}
+
+.discord-name{
+  display: inline;
+}
+
+.footer-link{
+  display: inline;
+}
+
+.footer{
+  color: #EAF6F6;
+  font-size: .9rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 50px;
+   -moz-border-radius: 50px;
+   border-radius: 50px;
+   color: #FFFFFF;
+   font-family: sans-serif;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 40px;
+   box-shadow: 1px 1px 20px 0px #000000;
+   -webkit-box-shadow: 1px 1px 20px 0px #000000;
+   -moz-box-shadow: 1px 1px 20px 0px #000000;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   text-decoration: none;
+}
+
+#calculator{
+  margin-right: 30px;
+  float: left;
+}
+
+#penguin{
+  margin-left: 30px;
+  float: right;
 }
